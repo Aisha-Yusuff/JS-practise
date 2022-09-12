@@ -1,11 +1,5 @@
 const fizzBuzz = require("./fizzBuzz");
 
-// rules of fizzbuzz
-// returns fizz for multiple of 3
-// returns buzz for multiple of 5
-// returns fizzBuzz for multiple of 3 and 5
-// returns number if not a multiple
-
 describe("fizzBuzz", () => {
   it("returns fizz for a multiple of 3", () => {
     expect(fizzBuzz(3)).toBe("fizz");
