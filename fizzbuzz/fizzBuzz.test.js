@@ -10,7 +10,7 @@ describe("fizzBuzz", () => {
   });
 
   it("return fizzBuzz for a number that is a multiple of 5 and 3", () => {
-    expect(fizzBuzz(15)).toBe("fizzBuzz");
+    expect(fizzBuzz(15)).toBe("fizzbuzz");
   });
 
   it("returns a number if it is not a multiple of 3 or 5", () => {
